@@ -1,11 +1,13 @@
-[gd_scene load_steps=10 format=3 uid="uid://nf1bwxcv1u0l"]
+[gd_scene load_steps=12 format=3 uid="uid://nf1bwxcv1u0l"]
 
-[ext_resource type="PackedScene" uid="uid://b41p5gf0mwx52" path="res://Scenes/raven.tscn" id="1_13ut7"]
-[ext_resource type="Texture2D" uid="uid://0plkp1ts23yp" path="res://Assets/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/Assets/Tiles_new-export.png" id="2_igbsa"]
-[ext_resource type="Texture2D" uid="uid://biu80h3yw72jj" path="res://Assets/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/Assets/Props.png" id="2_ygu7g"]
+[ext_resource type="Script" path="res://Scripts/main.gd" id="1_uasc6"]
+[ext_resource type="Texture2D" uid="uid://0plkp1ts23yp" path="res://Assets/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/Assets/Tiles_new-export.png" id="2_coa6d"]
+[ext_resource type="Texture2D" uid="uid://biu80h3yw72jj" path="res://Assets/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/Assets/Props.png" id="3_6ggsk"]
+[ext_resource type="PackedScene" uid="uid://b41p5gf0mwx52" path="res://Scenes/raven.tscn" id="4_oah3g"]
+[ext_resource type="PackedScene" uid="uid://di0610j8jf6d8" path="res://Scenes/customer.tscn" id="5_30da8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s6lcj"]
-texture = ExtResource("2_igbsa")
+texture = ExtResource("2_coa6d")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -318,7 +320,7 @@ texture = ExtResource("2_igbsa")
 sources/1 = SubResource("TileSetAtlasSource_s6lcj")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ls1l6"]
-texture = ExtResource("2_ygu7g")
+texture = ExtResource("3_6ggsk")
 0:0/0 = 0
 1:0/0 = 0
 3:0/0 = 0
@@ -526,7 +528,8 @@ gradient = SubResource("Gradient_o3ys2")
 fill = 1
 fill_from = Vector2(0.5, 0.5)
 
-[node name="Game" type="Node2D"]
+[node name="Main" type="Node2D"]
+script = ExtResource("1_uasc6")
 
 [node name="TileMap" type="TileMap" parent="."]
 scale = Vector2(4, 4)
@@ -543,7 +546,7 @@ format = 2
 layer_0/tile_data = PackedInt32Array(131086, 458752, 2, 196622, 458752, 3, 131087, 524288, 2, 196623, 524288, 3, 131088, 589824, 2, 196624, 589824, 3, 262166, 0, 0, 327702, 0, 1, 262165, 65536, 2, 327701, 65536, 3)
 layer_1/tile_data = PackedInt32Array(131087, 131072, 1, 327702, 0, 2, 393238, 0, 3)
 
-[node name="Raven" parent="." instance=ExtResource("1_13ut7")]
+[node name="Raven" parent="." instance=ExtResource("4_oah3g")]
 position = Vector2(1045, 543)
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
@@ -559,3 +562,6 @@ scale = Vector2(4, 4)
 color = Color(0.423529, 0.807843, 0, 1)
 energy = 1.87
 texture = SubResource("GradientTexture2D_7ci35")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("5_30da8")]
+position = Vector2(524, 320)
