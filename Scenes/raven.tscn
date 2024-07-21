@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://b41p5gf0mwx52"]
+
+[ext_resource type="Texture2D" uid="uid://63vpv14d8tln" path="res://Assets/39Portraits/2 Portraits with back/Icons_28.png" id="1_lmgwr"]
+[ext_resource type="Texture2D" uid="uid://cpvpfnpmg4bv6" path="res://Assets/HerbsPixelArt/PNG/bg_square.png" id="1_yke34"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xw2w0"]
+size = Vector2(192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_quokp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lmgwr")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Raven" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_xw2w0")
+
+[node name="BgSquare" type="Sprite2D" parent="."]
+scale = Vector2(0.83475, 0.824984)
+texture = ExtResource("1_yke34")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(6, 6)
+sprite_frames = SubResource("SpriteFrames_quokp")
