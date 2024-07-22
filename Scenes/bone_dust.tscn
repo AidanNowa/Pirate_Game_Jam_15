@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c03cgfthgmd0s"]
+
+[ext_resource type="Texture2D" uid="uid://wenwcyqeq2v" path="res://Assets/RPGLootIcons/PNG/Transperent/Icon20.png" id="1_ssfvr"]
+
+[node name="BoneDust" type="CharacterBody2D"]
+
+[node name="Icon20" type="Sprite2D" parent="."]
+texture = ExtResource("1_ssfvr")

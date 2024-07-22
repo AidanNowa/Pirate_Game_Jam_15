@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://wvqq0ikerb7r"]
+
+[ext_resource type="Texture2D" uid="uid://8l7da2gpl18h" path="res://Assets/RPGLootIcons/PNG/Transperent/Icon42.png" id="1_bhr3b"]
+
+[node name="SolQuill" type="CharacterBody2D"]
+
+[node name="Icon42" type="Sprite2D" parent="."]
+texture = ExtResource("1_bhr3b")

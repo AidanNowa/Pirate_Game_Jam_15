@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://toy1nm188ty5"]
+
+[ext_resource type="Texture2D" uid="uid://3wybfgfa0hen" path="res://Assets/MineralsPixelArt/PNG/Transperent/Icon34.png" id="1_hnb3p"]
+
+[node name="Sunstone" type="CharacterBody2D"]
+
+[node name="Icon34" type="Sprite2D" parent="."]
+texture = ExtResource("1_hnb3p")
