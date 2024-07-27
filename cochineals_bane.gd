@@ -27,17 +27,26 @@ func _process(delta):
 				tween.tween_property(self, "global_position", initial_pos, 0.2).set_ease(Tween.EASE_OUT)
 				if body_ref:
 					body_ref.occupied = false
-
+			draggable = false
+			
 func _on_area_2d_mouse_entered():
 	if not Global.is_dragging:
 		draggable = true
-		#scale = Vector2(1.05, 1.05)
 		scale = initial_scale * 1.05
 
+#func _on_area_2d_mouse_entered():
+#	scale = initial_scale * 1.05
+#	if Input.is_action_pressed("left_click"):
+#		draggable = true
+#		Global.is_dragging = true
+#		initial_pos = global_position
+#		offset = get_global_mouse_position() - global_position
+		
+		
 func _on_area_2d_mouse_exited():
 	if not Global.is_dragging:
 		draggable = false
-		scale = initial_scale / 1.05
+		scale = initial_scale
 	
 func _on_area_2d_body_entered(body):
 	if body.is_in_group('dropable'):
@@ -53,3 +62,4 @@ func _on_area_2d_body_exited(body):
 		body.modulate = Color(Color.MEDIUM_PURPLE, 0.7)
 		body.occupied = false
 		body_ref = null
+
