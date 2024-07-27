@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgsmtnb28mlh4"
-path="res://.godot/imported/Icon15.png-b82a1448dfb43d78f303757762d949a0.ctex"
+uid="uid://3wybfgfa0hen"
+path="res://.godot/imported/SunStone.png-e482fa37f18c2b130aa315b91c2b8fa6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/RPGLootIcons/PNG/Transperent/Icon15.png"
-dest_files=["res://.godot/imported/Icon15.png-b82a1448dfb43d78f303757762d949a0.ctex"]
+source_file="res://Assets/Ingredients/SunStone.png"
+dest_files=["res://.godot/imported/SunStone.png-e482fa37f18c2b130aa315b91c2b8fa6.ctex"]
 
 [params]
 

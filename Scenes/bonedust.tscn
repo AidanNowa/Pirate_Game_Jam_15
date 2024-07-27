@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://3yxsp6wwegxs"]
+
+[ext_resource type="PackedScene" uid="uid://c7uhevt2vt5rv" path="res://Scenes/ingredient.tscn" id="1_v4i1b"]
+[ext_resource type="Texture2D" uid="uid://wenwcyqeq2v" path="res://Assets/Ingredients/BoneDust.png" id="2_cd7hm"]
+
+[node name="Ingredient" instance=ExtResource("1_v4i1b")]
+
+[node name="BoneDust" type="Sprite2D" parent="." index="1"]
+scale = Vector2(2, 2)
+texture = ExtResource("2_cd7hm")

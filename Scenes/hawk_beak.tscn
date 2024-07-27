@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://7tnejdd3jquq"]
-
-[ext_resource type="Texture2D" uid="uid://d2gt0etto4l8t" path="res://Assets/UndeadLoot/PNG/Transperent/Icon9.png" id="1_h5xqm"]
-
-[node name="HawkBeak" type="CharacterBody2D"]
-
-[node name="Icon9" type="Sprite2D" parent="."]
-texture = ExtResource("1_h5xqm")

@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bquki44xv0ox2"]
-
-[ext_resource type="Texture2D" uid="uid://s1b7lumci85h" path="res://Assets/RPGLootIcons/PNG/Transperent/Icon3.png" id="1_hc2gu"]
-
-[node name="GoldFlakes" type="CharacterBody2D"]
-
-[node name="Icon3" type="Sprite2D" parent="."]
-texture = ExtResource("1_hc2gu")

@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://cjimj5fokj21e"]
+[gd_scene load_steps=3 format=3 uid="uid://cbchv2s0l6piv"]
 
-[ext_resource type="Texture2D" uid="uid://bgsmtnb28mlh4" path="res://Assets/RPGLootIcons/PNG/Transperent/Icon15.png" id="1_kt2gg"]
+[ext_resource type="Texture2D" uid="uid://bgsmtnb28mlh4" path="res://Assets/Ingredients/GoblinJelly.png" id="1_kt2gg"]
+[ext_resource type="PackedScene" uid="uid://c7uhevt2vt5rv" path="res://Scenes/ingredient.tscn" id="1_t248g"]
 
-[node name="GoblinJelly" type="CharacterBody2D"]
+[node name="Ingredient" instance=ExtResource("1_t248g")]
 
-[node name="Icon15" type="Sprite2D" parent="."]
+[node name="GoblinJelly" type="Sprite2D" parent="." index="1"]
+scale = Vector2(2, 2)
 texture = ExtResource("1_kt2gg")

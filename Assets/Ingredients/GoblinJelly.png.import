@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wenwcyqeq2v"
-path="res://.godot/imported/Icon20.png-58c77bf5818759f4b7c8c56cd665640e.ctex"
+uid="uid://bgsmtnb28mlh4"
+path="res://.godot/imported/GoblinJelly.png-ecb5b8583cd05844ea29440c890189e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/RPGLootIcons/PNG/Transperent/Icon20.png"
-dest_files=["res://.godot/imported/Icon20.png-58c77bf5818759f4b7c8c56cd665640e.ctex"]
+source_file="res://Assets/Ingredients/GoblinJelly.png"
+dest_files=["res://.godot/imported/GoblinJelly.png-ecb5b8583cd05844ea29440c890189e7.ctex"]
 
 [params]
 

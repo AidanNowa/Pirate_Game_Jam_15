@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3wybfgfa0hen"
-path="res://.godot/imported/Icon34.png-58b80c9ef4789197e2b60132739309f7.ctex"
+uid="uid://rs5kfljxfhng"
+path="res://.godot/imported/CochinealsBane.png-f60736cff79e993e9f51a97f4ed68326.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/MineralsPixelArt/PNG/Transperent/Icon34.png"
-dest_files=["res://.godot/imported/Icon34.png-58b80c9ef4789197e2b60132739309f7.ctex"]
+source_file="res://Assets/Ingredients/CochinealsBane.png"
+dest_files=["res://.godot/imported/CochinealsBane.png-f60736cff79e993e9f51a97f4ed68326.ctex"]
 
 [params]
 

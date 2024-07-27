@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dmak63hteccy8"]
-
-[ext_resource type="Texture2D" uid="uid://chp5vblrwbycj" path="res://Assets/UndeadLoot/PNG/Transperent/Icon27.png" id="1_1v0jg"]
-
-[node name="FenrisFeet" type="CharacterBody2D"]
-
-[node name="Icon27" type="Sprite2D" parent="."]
-texture = ExtResource("1_1v0jg")

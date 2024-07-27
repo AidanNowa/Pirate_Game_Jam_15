@@ -1,9 +1,17 @@
-[gd_scene load_steps=7 format=3 uid="uid://d4hyxc600fiw"]
+[gd_scene load_steps=15 format=3 uid="uid://d4hyxc600fiw"]
 
 [ext_resource type="Script" path="res://Scripts/lab.gd" id="1_w2ipm"]
 [ext_resource type="Texture2D" uid="uid://0plkp1ts23yp" path="res://Assets/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/Assets/Tiles_new-export.png" id="2_l7dvw"]
 [ext_resource type="PackedScene" uid="uid://bjo5w60qbtd5y" path="res://Scenes/drag_and_drop_area.tscn" id="3_trlxk"]
-[ext_resource type="PackedScene" uid="uid://c7uhevt2vt5rv" path="res://Scenes/cochineals_bane.tscn" id="4_3sy70"]
+[ext_resource type="PackedScene" uid="uid://3yxsp6wwegxs" path="res://Scenes/bonedust.tscn" id="4_ygfg2"]
+[ext_resource type="PackedScene" uid="uid://ch7kqxc77xgla" path="res://Scenes/cochinealsBane.tscn" id="5_6i8et"]
+[ext_resource type="PackedScene" uid="uid://bnd1vxqi6yog7" path="res://Scenes/fenrisfeet.tscn" id="6_hbs0x"]
+[ext_resource type="PackedScene" uid="uid://cbchv2s0l6piv" path="res://Scenes/goblinjelly.tscn" id="7_oa4qp"]
+[ext_resource type="PackedScene" uid="uid://cvm2h8ps3sswi" path="res://Scenes/goldflakes.tscn" id="8_1go3q"]
+[ext_resource type="PackedScene" uid="uid://bo5rsvkrsqg0d" path="res://Scenes/hawkbeak.tscn" id="9_18q1t"]
+[ext_resource type="PackedScene" uid="uid://d3s46wnmtwsc4" path="res://Scenes/solquill.tscn" id="10_t8af2"]
+[ext_resource type="PackedScene" uid="uid://d0y4ke24oitql" path="res://Scenes/sunstone.tscn" id="11_fc6lx"]
+[ext_resource type="Texture2D" uid="uid://v4ux7otyxond" path="res://Assets/Magnum_opus_circle.png" id="12_11l1p"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_08l23"]
 texture = ExtResource("2_l7dvw")
@@ -328,28 +336,48 @@ script = ExtResource("1_w2ipm")
 [node name="DropableAreas" type="Node" parent="."]
 
 [node name="DragAndDropArea" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(297, 388)
+z_index = 1
+position = Vector2(481, 215)
 
 [node name="DragAndDropArea3" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(88, 384)
+z_index = 1
+position = Vector2(692, 423)
 
 [node name="DragAndDropArea4" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(1036, 379)
+z_index = 1
+position = Vector2(692, 218)
 
 [node name="DragAndDropArea5" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(659, 380)
+z_index = 1
+position = Vector2(586, 37)
+
+[node name="DragAndDropArea6" parent="DropableAreas" instance=ExtResource("3_trlxk")]
+z_index = 1
+position = Vector2(479, 422)
 
 [node name="DragAndDropArea7" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(855, 389)
+z_index = 1
+position = Vector2(815, 418)
 
 [node name="DragAndDropArea8" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(467, 391)
+z_index = 1
+position = Vector2(355, 424)
 
-[node name="CochinealsBane" parent="." instance=ExtResource("4_3sy70")]
-position = Vector2(887, 99)
+[node name="DragAndDropArea9" parent="DropableAreas" instance=ExtResource("3_trlxk")]
+z_index = 1
+position = Vector2(70, 200)
 
-[node name="CochinealsBane2" parent="." instance=ExtResource("4_3sy70")]
-position = Vector2(728, 144)
+[node name="DragAndDropArea10" parent="DropableAreas" instance=ExtResource("3_trlxk")]
+z_index = 1
+position = Vector2(150, 200)
+
+[node name="DragAndDropArea11" parent="DropableAreas" instance=ExtResource("3_trlxk")]
+z_index = 1
+position = Vector2(70, 270)
+
+[node name="DragAndDropArea12" parent="DropableAreas" instance=ExtResource("3_trlxk")]
+z_index = 1
+position = Vector2(150, 270)
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(17, 18)
@@ -364,3 +392,41 @@ offset_right = 178.0
 offset_bottom = 108.0
 text = "To the Store
 "
+
+[node name="Ingredients" type="Node" parent="."]
+
+[node name="BoneDust" parent="Ingredients" instance=ExtResource("4_ygfg2")]
+z_index = 2
+position = Vector2(1067, 63)
+
+[node name="CochinealsBane" parent="Ingredients" instance=ExtResource("5_6i8et")]
+z_index = 2
+position = Vector2(1067, 147)
+
+[node name="FenrisFeet" parent="Ingredients" instance=ExtResource("6_hbs0x")]
+z_index = 2
+position = Vector2(1070, 225)
+
+[node name="GoblinJelly" parent="Ingredients" instance=ExtResource("7_oa4qp")]
+z_index = 2
+position = Vector2(962, 219)
+
+[node name="GoldFlakes" parent="Ingredients" instance=ExtResource("8_1go3q")]
+z_index = 2
+position = Vector2(963, 299)
+
+[node name="HawkBeak" parent="Ingredients" instance=ExtResource("9_18q1t")]
+z_index = 2
+position = Vector2(962, 143)
+
+[node name="Solquill" parent="Ingredients" instance=ExtResource("10_t8af2")]
+z_index = 2
+position = Vector2(1072, 303)
+
+[node name="SunStone" parent="Ingredients" instance=ExtResource("11_fc6lx")]
+z_index = 2
+position = Vector2(961, 62)
+
+[node name="MagnumOpusCircle" type="Sprite2D" parent="."]
+position = Vector2(588, 272)
+texture = ExtResource("12_11l1p")

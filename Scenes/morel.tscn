@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://ewp4bqk2f0yb"]
-
-[ext_resource type="Texture2D" uid="uid://645gxsird6vd" path="res://Assets/RPGLootIcons/PNG/Transperent/Icon11.png" id="1_pbqt0"]
-
-[node name="Morel" type="CharacterBody2D"]
-
-[node name="Icon11" type="Sprite2D" parent="."]
-texture = ExtResource("1_pbqt0")

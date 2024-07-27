@@ -52,14 +52,14 @@ func _on_area_2d_body_entered(body):
 	if body.is_in_group('dropable'):
 		if not body.occupied:
 			is_inside_dropable = true
-			body.modulate = Color(Color.REBECCA_PURPLE, 1)
+			body.modulate = Color(Color.SEASHELL, 1)
 			body_ref = body
 			
 
 func _on_area_2d_body_exited(body):
 	if body.is_in_group('dropable') and body == body_ref:
 		is_inside_dropable = false
-		body.modulate = Color(Color.MEDIUM_PURPLE, 0.7)
+		body.modulate = Color(Color.SEASHELL, 0.7)
 		body.occupied = false
 		body_ref = null
 

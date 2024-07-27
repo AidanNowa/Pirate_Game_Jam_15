@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s1b7lumci85h"
-path="res://.godot/imported/Icon3.png-753fcced02b1e11fc7c66f2bac380f8d.ctex"
+uid="uid://wenwcyqeq2v"
+path="res://.godot/imported/BoneDust.png-58d5cb145df6f1939a9644979e77ce27.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/RPGLootIcons/PNG/Transperent/Icon3.png"
-dest_files=["res://.godot/imported/Icon3.png-753fcced02b1e11fc7c66f2bac380f8d.ctex"]
+source_file="res://Assets/Ingredients/BoneDust.png"
+dest_files=["res://.godot/imported/BoneDust.png-58d5cb145df6f1939a9644979e77ce27.ctex"]
 
 [params]
 

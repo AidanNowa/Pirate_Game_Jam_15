@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chp5vblrwbycj"
-path="res://.godot/imported/Icon27.png-e786dfbd92d6eb551311de9d117ed9e2.ctex"
+uid="uid://d2gt0etto4l8t"
+path="res://.godot/imported/HawkBeak.png-f5fc55ad3ee7a508b8fc3eb9ea02b0ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/UndeadLoot/PNG/Transperent/Icon27.png"
-dest_files=["res://.godot/imported/Icon27.png-e786dfbd92d6eb551311de9d117ed9e2.ctex"]
+source_file="res://Assets/Ingredients/HawkBeak.png"
+dest_files=["res://.godot/imported/HawkBeak.png-f5fc55ad3ee7a508b8fc3eb9ea02b0ca.ctex"]
 
 [params]
 

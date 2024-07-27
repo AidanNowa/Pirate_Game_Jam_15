@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2gt0etto4l8t"
-path="res://.godot/imported/Icon9.png-8e9f005ffbfa7a39dd16be7c918c63f5.ctex"
+uid="uid://chp5vblrwbycj"
+path="res://.godot/imported/FenrisFeet.png-40e0fe0636d5a01102b9f1368bb93ea7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/UndeadLoot/PNG/Transperent/Icon9.png"
-dest_files=["res://.godot/imported/Icon9.png-8e9f005ffbfa7a39dd16be7c918c63f5.ctex"]
+source_file="res://Assets/Ingredients/FenrisFeet.png"
+dest_files=["res://.godot/imported/FenrisFeet.png-40e0fe0636d5a01102b9f1368bb93ea7.ctex"]
 
 [params]
 

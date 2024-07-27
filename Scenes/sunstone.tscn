@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://toy1nm188ty5"]
+[gd_scene load_steps=3 format=3 uid="uid://d0y4ke24oitql"]
 
-[ext_resource type="Texture2D" uid="uid://3wybfgfa0hen" path="res://Assets/MineralsPixelArt/PNG/Transperent/Icon34.png" id="1_hnb3p"]
+[ext_resource type="PackedScene" uid="uid://c7uhevt2vt5rv" path="res://Scenes/ingredient.tscn" id="1_3b563"]
+[ext_resource type="Texture2D" uid="uid://3wybfgfa0hen" path="res://Assets/Ingredients/SunStone.png" id="1_hnb3p"]
 
-[node name="Sunstone" type="CharacterBody2D"]
+[node name="Ingredient" instance=ExtResource("1_3b563")]
 
-[node name="Icon34" type="Sprite2D" parent="."]
+[node name="SunStone" type="Sprite2D" parent="." index="1"]
+scale = Vector2(2, 2)
 texture = ExtResource("1_hnb3p")

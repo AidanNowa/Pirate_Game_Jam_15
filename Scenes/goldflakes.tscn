@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvm2h8ps3sswi"]
+
+[ext_resource type="PackedScene" uid="uid://c7uhevt2vt5rv" path="res://Scenes/ingredient.tscn" id="1_fsdg4"]
+[ext_resource type="Texture2D" uid="uid://s1b7lumci85h" path="res://Assets/Ingredients/GoldFlakes.png" id="2_gbnyy"]
+
+[node name="Ingredient" instance=ExtResource("1_fsdg4")]
+
+[node name="GoldFlakes" type="Sprite2D" parent="." index="1"]
+scale = Vector2(2, 2)
+texture = ExtResource("2_gbnyy")

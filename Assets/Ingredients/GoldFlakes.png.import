@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8l7da2gpl18h"
-path="res://.godot/imported/Icon42.png-5a33d53f4f7410740c3e5123adae30cc.ctex"
+uid="uid://s1b7lumci85h"
+path="res://.godot/imported/GoldFlakes.png-cebb0a44957a8dc407a74e110d3ecae0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/RPGLootIcons/PNG/Transperent/Icon42.png"
-dest_files=["res://.godot/imported/Icon42.png-5a33d53f4f7410740c3e5123adae30cc.ctex"]
+source_file="res://Assets/Ingredients/GoldFlakes.png"
+dest_files=["res://.godot/imported/GoldFlakes.png-cebb0a44957a8dc407a74e110d3ecae0.ctex"]
 
 [params]
 
