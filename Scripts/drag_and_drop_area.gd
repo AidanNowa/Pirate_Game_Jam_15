@@ -1,5 +1,6 @@
 extends StaticBody2D
 
+var occupied = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -12,3 +13,4 @@ func _process(delta):
 		visible = true
 	else:
 		visible = false
+

@@ -325,18 +325,20 @@ offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("1_w2ipm")
 
+[node name="CochinealsBane" parent="." instance=ExtResource("4_3sy70")]
+position = Vector2(930, 159)
+
+[node name="CochinealsBane2" parent="." instance=ExtResource("4_3sy70")]
+position = Vector2(711, 87)
+
 [node name="DropableAreas" type="Node" parent="."]
 
 [node name="DragAndDropArea" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(304, 245)
-scale = Vector2(3, 3)
-
-[node name="DragAndDropArea2" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(301, 409)
+position = Vector2(286, 282)
 scale = Vector2(3, 3)
 
 [node name="DragAndDropArea3" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(302, 570)
+position = Vector2(350, 431)
 scale = Vector2(3, 3)
 
 [node name="DragAndDropArea4" parent="DropableAreas" instance=ExtResource("3_trlxk")]
@@ -344,19 +346,15 @@ position = Vector2(497, 570)
 scale = Vector2(3, 3)
 
 [node name="DragAndDropArea5" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(701, 571)
-scale = Vector2(3, 3)
-
-[node name="DragAndDropArea6" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(705, 411)
+position = Vector2(634, 431)
 scale = Vector2(3, 3)
 
 [node name="DragAndDropArea7" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(704, 247)
+position = Vector2(742, 284)
 scale = Vector2(3, 3)
 
 [node name="DragAndDropArea8" parent="DropableAreas" instance=ExtResource("3_trlxk")]
-position = Vector2(506, 244)
+position = Vector2(499, 275)
 scale = Vector2(3, 3)
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -372,7 +370,3 @@ offset_right = 178.0
 offset_bottom = 108.0
 text = "To the Store
 "
-
-[node name="CochinealsBane" parent="." instance=ExtResource("4_3sy70")]
-position = Vector2(1016, 100)
-scale = Vector2(3, 3)
